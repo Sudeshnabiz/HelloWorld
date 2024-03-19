@@ -4,11 +4,16 @@ title: helloworld
     get:
         responses:
             200:
-             body:
-            application/json
-            example:
-            {"message" : "hello"}
+              body:
+                application/json:
+                  example:
+                    {"message" : "Hello"}
 
     post:
         responses:
             201:
+              body:
+                application/json:
+                  example:
+                    {"message" : "Hello"}
+
